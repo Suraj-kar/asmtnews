@@ -16,6 +16,7 @@ if(isset($_POST['category'])){
         $msg = "category name requird";
         header('Location:../category.php?errmsg='.msg);
         
+        
     }
 }
 ?>
